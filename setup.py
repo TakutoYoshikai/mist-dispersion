@@ -8,7 +8,7 @@ setup(
     author = 'Takuto Yoshikai',
     author_email = 'takuto.yoshikai@gmail.com',
     description = 'mist-dispersion is a disperser of any file data.',
-    install_requires = ['setuptools'],
+    install_requires = ['setuptools', "lina@git+https://github.com/TakutoYoshikai/lina.git"],
     packages = find_packages(),
     entry_points={
         "console_scripts": [
